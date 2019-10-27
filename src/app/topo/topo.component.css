@@ -1,0 +1,25 @@
+.inicio{
+    background-image: url("/assets/inicio.png");
+    padding-left: 260px;
+    padding-top: 413px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+@keyframes elemento {
+    0% {
+      background-image: url("/assets/inicio.png");
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    100% {
+        background-image: url("/assets/inicio.png");
+        padding-left: 260px;
+        padding-top: 413px;
+    }
+  }
+
+    .inicio{	
+    animation-direction: alternate;		
+      animation: elemento 1s ease-in 0s ;
+  }

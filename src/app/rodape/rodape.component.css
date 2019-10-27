@@ -1,0 +1,37 @@
+
+.col-xs-3{
+    background-color: #F5F5F5 ;
+    padding-top: 1%;
+    z-index:1;
+}
+.opcao1{
+    background-image: url("/assets/home11.png");
+    
+    margin-left: 10px;
+    padding-top: 100%;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+.opcao2{
+    background-image: url("/assets/promocoes1.png");
+    
+    margin-left: 10px;
+    padding-top: 100%;
+    padding-left: 50px;
+    padding-right:20px;
+    background-repeat: no-repeat;
+}
+.opcao3{
+    background-image: url("/assets/postos1.png");
+    margin-left: 10px;
+    padding-top: 100%;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+.opcao4{
+    background-image: url("/assets/extrato1.png");
+    margin-left: 10px;
+    padding-top: 100%;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,24 @@
+.promocoes{
+    background-image: url("/assets/telapromocoes.png");
+    padding-left: 260px;
+    padding-top: 413px;
+    background-repeat: no-repeat;
+}
+
+@keyframes elemento {
+    0% {
+      background-image: url("/assets/telapromocoes.png");
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    100% {
+        background-image: url("/assets/telapromocoes.png");
+        padding-left: 260px;
+        padding-top: 413px;
+    }
+  }
+
+    .promocoes{	
+    animation-direction: alternate;		
+      animation: elemento 1s ease-in 0s ;
+  }
